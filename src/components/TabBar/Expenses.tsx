@@ -1,0 +1,20 @@
+import { StyleSheet, View } from 'react-native'
+import React from 'react'
+import { Text } from '../Text'
+
+const Expenses = () => {
+  return (
+    <View style={styles.container}>
+      <Text variant='subheading' style={{fontWeight:'600'}}>Expenses</Text>
+    </View>
+  )
+}
+
+export default Expenses
+
+const styles = StyleSheet.create({
+  container:{
+    flex:1,
+    marginTop:10
+  }
+})
